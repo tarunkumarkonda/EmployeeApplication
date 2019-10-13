@@ -1,0 +1,40 @@
+2019-10-11 14:40:50,322 INFO o.s.b.StartupInfoLogger [restartedMain] Starting EmployeeProjectApplication on tkonda with PID 20208 (C:\Users\tarunk\workspace1\EmployeeProject\target\classes started by tarunk in C:\Users\tarunk\workspace1\EmployeeProject)
+2019-10-11 14:40:50,326 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-10-11 14:40:50,327 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-10-11 14:40:50,352 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-11 14:40:50,352 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-11 14:40:50,911 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-11 14:40:50,952 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 35ms. Found 3 repository interfaces.
+2019-10-11 14:40:51,200 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$33ca0a02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-11 14:40:51,215 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$b34a5734] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-11 14:40:51,468 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2019-10-11 14:40:51,478 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-11 14:40:51,485 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-10-11 14:40:51,486 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-11 14:40:51,546 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-10-11 14:40:51,547 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1195 ms
+2019-10-11 14:40:51,728 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-10-11 14:40:51,839 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-10-11 14:40:51,880 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-11 14:40:51,920 INFO o.h.Version [restartedMain] HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-11 14:40:51,921 INFO o.h.c.Environment [restartedMain] HHH000206: hibernate.properties not found
+2019-10-11 14:40:52,004 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-11 14:40:52,089 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-10-11 14:40:52,589 INFO o.h.t.s.i.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7783163e'
+2019-10-11 14:40:52,592 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-11 14:40:52,647 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-10-11 14:40:52,867 INFO o.h.h.i.QueryTranslatorFactoryInitiator [restartedMain] HHH000397: Using ASTQueryTranslatorFactory
+2019-10-11 14:40:53,367 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 14:40:53,397 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-11 14:40:53,687 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2019-10-11 14:40:53,855 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-11 14:40:53,857 INFO o.s.b.StartupInfoLogger [restartedMain] Started EmployeeProjectApplication in 3.712 seconds (JVM running for 4.375)
+2019-10-11 14:44:55,158 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2019-10-11 14:44:55,160 INFO o.s.s.c.ExecutorConfigurationSupport [RMI TCP Connection(7)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 14:44:55,161 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(7)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-11 14:44:55,161 INFO o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(7)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-10-11 14:44:55,170 WARN o.s.b.f.s.DisposableBeanAdapter [RMI TCP Connection(7)-127.0.0.1] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-10-11 14:44:55,171 INFO c.z.h.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-10-11 14:44:55,172 INFO c.z.h.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.
